@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+        <title>abSENT - an SMS service.</title>
+    </meta>
+    <style>
+        .centered {
+            text-align: center;
+        }
+        h2.aligned {
+            font-family: 'Courier New';
+            margin-left: 100px;
+            font-size: 20px;
+        }
+        h1.aligned {
+            font-family: 'Courier New';
+            margin-left: 40px;
+        }
+        p.main {
+            font-family: 'Courier New';
+            font-size: 16px;
+            margin-left: 110px;
+        }
+        .image-center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://raw.githubusercontent.com/abSENT-SMS/abSENT/main/marketing/logo.png" class="image-center" alt="abSENT logo">
+    <h1 class="centered" style="font-family:'Courier New'">abSENT - an SMS service for NPS students.</h1>
+    <h1 class="aligned">TERMS:</h1> 
+    <h2 class="aligned">Introduction:</h2>
+        <p class="main">These terms of service govern your use of the abSENT SMS service for notifications, and all access to resources online provided by the abSENT team. By utilizing abSENT or other affiliated services, you implicity agree to follow these terms. If they are violated at any point in time, abSENT reserves the right to terminate your use of the service.</p>
+    <h2 class="aligned">Automated Access:</h2>
+        <p class="main">Automated access to abSENT is permitted however an API is not currently provided. Interactions deemed as spam, or other improper uses of automation will result in an account ban.</p>
+    <h2 class="aligned">Payments:</h2>
+        <p class="main">abSENT is a free service: the majority of users will never provide payment and payment information is not associated with your account. If you chose to make a donation, payments are processed through external providers (PayPal and Stripe) in occordance with their usage and privacy policies. Payments are primarily accepted on our beacons.ai page, in accordance with Beacons' usage and privacy policy. Donations are non refundable.</p>
+    <h2 class="aligned">Privacy:</h2>
+        <p class="main">In order to operate are services certain information personally identifiying to our users is required. Please note that you do not need to provide us with your real name. We do collect and store information including user schedules, user phone numbers, and user grades. This information is critical to our service. Upon cancellation, all personally identifiying information is deleted from our live database, in accordance with a users "right to be forgotten". Database backups are retained for 1 months time, at most your information will remain in our systems until these backups are cycled.</p>
+    <h2 class="aligned">Guarantees:</h2>
+        <p class="main">abSENT offers no guarantees regarding the expediancy or accuracy of notifications. In the scenario of an error, it is likely that you simply do not recieve a notification. abSENT is extremely unlikely to send false notifications. Regardless, abSENT is not a replacement for official school sanctioned sources, and will not be liable for any damages caused by the blind trust of its information.</p>
+    <h2 class="aligned">Disclaimer:</h2>
+        <p class="main">abSENT is not affiliated with Newton Public Schools, Newton North or Newton South, nor is it endorsed by any of the afformentioned organizations. abSENT utilizies API credentials granted automatically by the NPS Schoology system.</p> 
+</body>
+
+</html>
