@@ -1,0 +1,156 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://rsms.me/inter/inter-display.css');
+html {
+    font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+.use-display-font {
+    font-family: 'InterDisplay', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+    .use-display-font {
+        font-family: 'InterDisplay var', sans-serif;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+
+    background: #fbfcf8;
+    color: #000000;
+}
+
+.header {
+    padding: 0 2rem;
+
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+
+    background: linear-gradient(45deg, #ff793f, #ef4344, #da2123);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    clip-path: url(#wave);
+
+    position: relative;
+}
+
+.header-content-link {
+    text-decoration: none;
+    width: 100%;
+    max-width: 40rem;
+}
+
+#logo {
+    width: 100%;
+}
+
+#subtitle {
+    color: #fff;
+    font-weight: 600;
+    font-size: calc(1.2rem + 1vmin);
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 40rem;
+}
+
+main {
+    padding: 0 2rem;
+    max-width: 50rem;
+
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+h1 {
+    font-family: 'InterDisplay', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+footer {
+    width: 100%;
+    padding: 2rem;
+    background: #ddd;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer p {
+    width: 100%;
+    max-width: 50rem;
+    font-size: 1.15rem;
+    text-align: center;
+    margin: 0.5rem 0;
+
+    color: #222;
+}
+
+svg {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.announcement {
+    font-family: 'InterDisplay', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+}
+
+li {
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+}
+
+main a,
+footer a {
+    color: #da2123;
+
+    text-decoration: none;
+    border-bottom: 1px dotted #da2123;
+
+    transition: 0.1s color;
+}
+
+main a:hover,
+footer a:hover {
+    color: #bc1010;
+
+    border-bottom: 1px solid #bc1010;
+}
+
+/* Terms page */
+
+.title {
+    font-family: 'InterDisplay', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}

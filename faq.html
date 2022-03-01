@@ -1,79 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>abSENT - Terms of Service</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <header class="header">
+            <a class="header-content-link" href="index.html">
+                <div class="header-content">
+                    <img
+                        id="logo"
+                        alt-text="abSENT Logo"
+                        title="abSENT Logo"
+                        src="logo-white.svg"
+                    />
+                    <h2 id="subtitle">Cancelled classes at your fingertips.</h2>
+                </div>
+            </a>
+        </header>
+        <main class="main">
+            <h1 class="title">Frequently Asked Questions</h1>
 
-<head>
-    <meta charset="utf-8">
-        <title>abSENT - notifications</title>
-    </meta>
-    <style>
-        .centered {
-            text-align: center;
-            color: white;
-            font-size: 3.5vh;
-        }
-        footer.centered {
-            font-family: 'Courier New';
-            text-align: center;
-            color: white;
-            font-size: 1.8vh;
-        }
-        h2.aligned {
-            font-family: 'Courier New';
-            margin-left: 4vh;
-            margin-right: 4vh;
-            font-size: 3vh;
-            color: white;
-        }
-        h1.aligned {
-            font-family: 'Courier New';
-            margin-left: 1.75vh;
-            margin-right: 1.75vh;
-            color: white;
-            font-size: 3.5vh;
-        }
-        .main {
-            font-family: 'Courier New';
-            font-size: 2.2vh;
-            margin-left: 5.25vh;
-            margin-right: 5.25vh;
-            color: white;
-        }
-        .image-center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
-    </style>
-</head>
+            <h1>What is it?</h1>
+            <p>
+                abSENT is a notification service written in Python, that sends
+                you a notification whenever your teachers are abSENT. abSENT is
+                a hobby project of
+                <a href="https://rkarim.xyz">Roshan Karim</a> (NNHS '24),
+                <a href="https://leah.vashevko.com">Leah Vashevko</a> (NSHS
+                '24), and
+                <a href="https://github.com/bykevinyang/">Kevin Yang</a> (NSHS
+                '24), who got tired of refreshing a website constantly in the
+                morning. Because of this inter-school colloboration, abSENT
+                works for both North and South.
+            </p>
 
-<body style="background-color:#242323;">
-    <img src="https://raw.githubusercontent.com/abSENT-SMS/abSENT/main/marketing/logo.png" class="image-center" alt="abSENT logo">
-    <h1 class="centered" style="font-family:'Courier New'">An notification service for NPS students.</h1>
-    <h1 class="aligned">FAQ:</h1> 
-    <h2 class="aligned">What is it?:</h2>
-        <p class="main">abSENT is a notification service written in Python, that sends you a notification whenever your teachers are abSENT. abSENT is a hobby project of Roshan Karim (NNHS '24) and Kevin Yang (NSHS '24), who got tired of refreshing a website constantly in the morning. Because of this inter-school colloboration, abSENT works for both North and South.</p>
-    <h2 class="aligned">How does it work?:</h2>
-        <p class="main">User's download our mobile app and enter in class information. abSENT is completely free. Once we recieve all the information we need, we listen every morning for the absence list and let you know if your teachers are on it. For you, it's that simple!</p>
-    <h2 class="aligned">Okay, but really, why?:</h2>
-        <p class="main">After going to Newton High Schools and experiencing the absence list for two years, something had to be done. It's an annoying way of learning about absent teachers, it's often posted very late, and it's never posted at a consistent time. In the morning, when other things need to get done, this isn't acceptable. Thus, abSENT.</p>
-    <h2 class="aligned">How can I help?:</h2>
-        <p class="main">Whilst the codebase is mostly in a maintenance state right now and help isn't need with it, there are others ways to help. <a style="color: #e67e22" href="mailto:hello.absent@gmail.com">Reach out to us</a> if you notice a bug or regression. And of course, if you can, donate to help us out with the server costs.</p>
-    <h2 class="aligned">More info:</h2>
-        <ul>
-                <li class="main">abSENT will only message you when you have abSENT teachers. On days where all of your teachers are present, no message is sent.</li>
-                <li class="main">Occasionally, abSENT will push announcements including information on new feature updates or general goings-on within the schools.</li>
-                <li class="main">Unfortunately, the basis of abSENT is teacher names. When signing up, be sure to <bold>type your teacher's names correctly!</bold> If this isn't done, you won't get notifications.</li>
-        </ul>
-    <h2 class="aligned">Disclaimer:</h2>
-        <p class="main">abSENT is not affiliated with Newton Public Schools, Newton North or Newton South, nor is it endorsed by any of the afformentioned organizations. abSENT utilizies API credentials granted automatically by the NPS Schoology system.</p> 
+            <h1>How does it work?</h1>
+            <p>
+                You download our mobile app and enter in class information.
+                abSENT is completely free. Once we recieve all the information
+                we need, we download the absence list every morning and let you
+                know if your teachers are on it. For you, it's that simple!
+            </p>
 
-<footer class="centered">
-    <hr>  
-    <p><a style="color: #e67e22" href="/">Go Home</a> | <a style="color: #e67e22" href="mailto:hello.absent@gmail.com">Contact Us</a></p>
-    <p>Copyright 2021 abSENT</p>
-</footer> 
+            <h1>Why do I need this?</h1>
+            <p>
+                After going to Newton High Schools and experiencing the absence
+                list for two years, something had to be done. It's an annoying
+                way of learning about absent teachers, it's often posted very
+                late, and it's never posted at a consistent time. In the
+                morning, when other things need to get done, this isn't
+                acceptable. Thus, abSENT.
+            </p>
 
-</body>
+            <h1>How can I help?</h1>
+            <p>
+                While the codebase is mostly in a maintenance state right now
+                and help isn't needed with it, there are others ways to help.
+                <a href="mailto:hello@absent.cc">React out to us</a> if you
+                notice a bug or regression. And of course, if you can, donate to
+                help us out with the server costs.
+            </p>
 
+            <h1>More Info</h1>
+            <ul>
+                <li>
+                    abSENT will only message you when you have abSENT teachers.
+                    On days where all of your teachers are present, no message
+                    is sent.
+                </li>
+                <li>
+                    Occasionally, abSENT will push announcements including
+                    information on new feature updates or general goings-on
+                    within the schools.
+                </li>
+                <li>
+                    Disclaimer: abSENT is not affiliated with Newton Public
+                    Schools, Newton North or Newton South, nor is it endorsed by
+                    any of the afformentioned organizations. abSENT utilizies
+                    API credentials granted automatically by the NPS Schoology
+                    system.
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <p>
+                Made with ❤️ by the abSENT team:
+                <a href="https://rkarim.xyz">Roshan Karim</a>,
+                <a href="https://leah.vashevko.com">Leah Vashevko</a>, and
+                <a href="https://github.com/bykevinyang/">Kevin Yang</a>.
+            </p>
+
+            <p>
+                <a href="terms.html">Terms of Service</a>
+            </p>
+
+            <p>
+                abSENT is not affiliated with, endorsed by, or in any way
+                officially connected with the Newton Public Schools.
+            </p>
+
+            <p>Copyright © 2021-2022 abSENT</p>
+
+            <p>Have a great day!</p>
+        </footer>
+        <svg>
+            <defs>
+                <clipPath id="wave" clipPathUnits="objectBoundingBox">
+                    <path d="m 0 0 v 0.9 c 0.5 0.3 0.5 -0.3 1 0 l 0 -0.9 z" />
+                </clipPath>
+            </defs>
+        </svg>
+    </body>
 </html>
